@@ -99,9 +99,9 @@ docker run hello-world
 If it shows a message like "Hello from Docker" -> Then docker is fully installed  
 
 3) Next, we will install docker-compose using the following steps. Docker Compose makes it easier for users to streamline the docker containers management processes, including starting up, shutting down, and setting up intra-container linking and volumes.   
-a. Download the docker-componse binary file from this location: 
+a. Download the docker-componse binary file from this location: go to https://docs.docker.com/compose/install/ for latest version of docker compose
 ```bash
-sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```   
 b. Make it executable: 
 ```bash
