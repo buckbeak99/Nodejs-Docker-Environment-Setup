@@ -37,6 +37,14 @@ node --version
 ```bash
 npm --version
 ```  
+For install Angular Cli
+```bash
+npm install -g @angular/cli
+```
+For install Vue Cli
+```bash
+npm install -g @vue/cli
+```
 
 ## Docker Setup  
 The first step is to set up the computer for Hyperledger Fabric.  
