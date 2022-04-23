@@ -53,6 +53,19 @@ For install Vue Cli
 ```bash
 npm install -g @vue/cli
 ```
+If you faces any broken package installation error, follow this commands
+```bash
+sudo apt install -fix-broken
+```
+```bash
+sudo apt install --fix-missing-update
+```
+```bash
+sudp apt update
+```
+```bash
+sudo apt install -f
+```
 
 ## Docker Setup  
 The first step is to set up the computer for Hyperledger Fabric.  
