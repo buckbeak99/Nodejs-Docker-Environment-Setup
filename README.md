@@ -30,6 +30,10 @@ sudo apt update
 ```bash
 sudo apt install nodejs
 ```  
+or 
+```bash
+sudo apt-get install -y nodejs
+```
 ***Step 3:*** Check the node version  
 ```bash
 node --version
@@ -37,6 +41,10 @@ node --version
 ```bash
 npm --version
 ```  
+Also, to compile and install native add-ons from NPM you may need to install development tools on your system as follows.
+```bash
+sudo apt install -y build-essential
+```
 For install Angular Cli
 ```bash
 npm install -g @angular/cli
